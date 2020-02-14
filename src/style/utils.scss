@@ -1,0 +1,86 @@
+/* 布局 */ 
+.flex-c{
+	display: flex;
+	align-items: center;
+}
+
+.flex-b{
+	display: flex;
+	justify-content: space-between;
+}
+.flex-ac{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.flex-cc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.flex-1{
+	flex: 1;
+}
+
+/* 背景 */ 
+.bg-arc{
+	height: 50px;
+	width: 50px;
+	background: $bg-nav;
+	background-image: linear-gradient(to right, $col-main , $col-sec);
+	border-radius: 50%;
+	color: #fff;
+}
+
+.bg-main{
+	background: $bg-nav;
+	color: #fff;
+}
+.bg-tag{
+	background-image: linear-gradient(to right, $col-main , $col-sec);
+	color: $col-qlv;
+}
+
+/* 阴影 */ 
+
+.nav-shadow{
+	box-shadow: 0 0 10px $col-hui;
+}
+
+/* 文字大小 */ 
+.font-26{
+	font-size: 26px;
+}
+/* 按钮 */ 
+.btn-main{
+	color: #fff !important;
+	background-image: linear-gradient(to right, $col-main , $col-sec);
+}
+/* 边框 */ 
+
+.border-main{
+	border: 1px solid $bg-nav;
+}
+
+.pc {
+	.pc-box{
+		width: 420px;
+		margin: auto;
+		border: 1 px solid $col-sec;
+		border-radius: 10px;
+	}
+
+	.btn-main {
+		width: 200px;
+	}
+}
+
+.phone button{
+	width: 100% !important;
+}
